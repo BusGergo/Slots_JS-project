@@ -1,0 +1,22 @@
+
+
+body{
+    margin: 0;
+}
+
+.mainContainer{
+    height: 100vh;
+    background-color: rgb(14, 14, 14);
+    margin-left: 25vh;
+    margin-right: 25vh;
+    display: flex;
+}
+
+#displayBox{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    color: black;
+}

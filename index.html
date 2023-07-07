@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Slots Game</title>
+    
 </head>
 <body>
-    <div class="inputBlock">
-        <label>Input</label>
-        <input type="text">
+    <div class="mainContainer">
+        <div class="inputBox">
+            <input type="text" id="depositInput" placeholder="Enter an amount">
+            <button id="depositButton">Deposit</button>
+            <p id="displayBox"></p>
+        </div>
     </div>
+
+    <script src="slots.js" type="module"></script>
 </body>
 </html>
